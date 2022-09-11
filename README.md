@@ -5,7 +5,7 @@
  
 </p>
 <p align="center">
-<a href="https://github.com/mukitan/GANG-Nuker/releases/download/v1.0.0/GANG-Nuker.zip">Fast Download</a> ㅤ•ㅤ
+<a href="https://github.com/mukitan/GANG-nuker/archive/refs/heads/main.zip">Fast Download</a> ㅤ•ㅤ
 <a href="https://discord.gg/wCPhjHbjdx">Discord</a> ㅤ•ㅤ
 <a href="https://www.youtube.com/watch?v=K3VGdO3Tnv8">Video SHOWCASE</a>
 </p>
