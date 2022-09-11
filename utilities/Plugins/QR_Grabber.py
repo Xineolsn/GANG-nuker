@@ -1,7 +1,7 @@
-# Coded / Dev: ††#9999 | https://github.com/TT-Tutorials | https://github.com/TT-Tutorials/GANG-Nuker
-# GANG Discord Nuker / Multi Tool©
-# Copyright © 2022
-########################################
+# Coded / Dev / Owner: https://github.com/mukitan | https://github.com/mukitan/GANG-Nuker
+# GANG Discord Nuker / Multi Tool ©
+# Copyright © GANG-Nuker
+#########################################################
 
 
 import os
