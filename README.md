@@ -1,10 +1,4 @@
 <p align="center">
-<img src="https://img.shields.io/github/languages/top/mukitan/GANG-Nuker?color=6d00c1&label-style=flat-square" </a>
-</p>
-
- 
-</p>
-<p align="center">
 <a href="https://github.com/mukitan/GANG-nuker/archive/refs/heads/main.zip">Fast Download</a> ㅤ•ㅤ
 <a href="https://discord.gg/wCPhjHbjdx">Discord</a> ㅤ•ㅤ
 <a href="https://www.youtube.com/watch?v=K3VGdO3Tnv8">Video SHOWCASE</a>
