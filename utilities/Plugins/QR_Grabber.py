@@ -9,7 +9,6 @@ import sys
 import json
 import base64
 import requests
-from PIL import Image
 from time import sleep
 from colorama import Fore
 from zipfile import ZipFile

@@ -461,9 +461,9 @@ def proxy_scrape():
 def setTitle(_str):
     system = os.name
     if system == 'nt':
-        ctypes.windll.kernel32.SetConsoleTitleW(f"{_str}GANG-Nuker FREE    |    Made by ††#9999    |    Tokens: [{counttokens}]")
+        ctypes.windll.kernel32.SetConsoleTitleW(f"{_str}GANG-Nuker FREE    |    Made by github.com/mukitan    |    Tokens: [{counttokens}]")
     elif system == 'posix':
-        sys.stdout.write(f"{_str}GANG-Nuker FREE    |    Made by ††#9999    |    Tokens: [{counttokens}]")
+        sys.stdout.write(f"{_str}GANG-Nuker FREE    |    Made by github.com/mukitan     |    Tokens: [{counttokens}]")
     else:
         pass
 

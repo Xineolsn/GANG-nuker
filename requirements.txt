@@ -28,7 +28,6 @@ PyNaCl
 psutil
 emoji
 httpx
-loads
 Popen
 tqdm
 pipe
